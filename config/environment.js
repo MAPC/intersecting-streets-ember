@@ -2,9 +2,9 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'test-ember-app',
+    modulePrefix: 'intersecting-streets',
     environment: environment,
-    rootURL: '/',
+    rootURL: 'surveys/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
