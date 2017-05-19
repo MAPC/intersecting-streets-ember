@@ -10,15 +10,16 @@
     {{content-for "head"}}
 
     <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link rel="stylesheet" href="{{rootURL}}assets/test-ember-app.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/intersecting-streets.css">
 
     {{content-for "head-footer"}}
   </head>
   <body>
-    {{content-for "body"}}
-
+    <script type="text/javascript">
+      var muni_id = 1;
+    </script>
     <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/test-ember-app.js"></script>
+    <script src="{{rootURL}}assets/intersecting-streets.js"></script>
 
     {{content-for "body-footer"}}
   </body>
